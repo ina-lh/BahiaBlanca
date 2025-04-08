@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Napo3_Canal.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Napo3_Canal</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-62.25297005469344,-38.74547730706565,0 -62.2514085376181,-38.74667890170935,0 -62.25071292279117,-38.7472024033678,0 -62.24887664039046,-38.74865281390076,0 -62.24735277237756,-38.74978708629652,0 -62.24644369528639,-38.75048024887632,0 -62.24435504584035,-38.75205208725436,0 -62.24271391436899,-38.75337967681019,0 -62.24151563524379,-38.75428875758344,0 -62.24088084172754,-38.75481214487325,0 -62.23980505131398,-38.75562107070797,0 -62.23942944773101,-38.7559080659743,0 -62.23939728842774,-38.7559924630569,0 -62.23941014229008,-38.75618813328013,0 -62.23941443176395,-38.75636115936673,0 
+			</coordinates>
+		</LineString>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Placemark>
+</Document>
+</kml>
